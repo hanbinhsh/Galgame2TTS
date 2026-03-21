@@ -19,8 +19,8 @@ TARGET_LANG = "ja"
 GPT_MODEL_PATH = r"D:\GPT-SoVITS-v2pro-20250604\GPT_weights_v2ProPlus\Kirie-e20.ckpt"
 SOVITS_MODEL_PATH = r"D:\GPT-SoVITS-v2pro-20250604\SoVITS_weights_v2ProPlus\Kirie_e8_s1040.pth"
 
-REF_AUDIO_PATH = r"G:\Projects\gal_chara_tts\kiri_voice\voice\1_kiri1296.ogg"
-REF_PROMPT_TEXT = "では、行きましょうか"
+REF_AUDIO_PATH = r"G:\Projects\gal_chara_tts\kiri_voice\voice\1_kiri0007.ogg"
+REF_PROMPT_TEXT = "私を、ジロジロ見ないでください"
 REF_PROMPT_LANG = "ja"
 
 PUNCTUATION_CHARS = ['。', '！', '？', '，', '、', '.', '!', '?', ',', '\n']
@@ -99,9 +99,6 @@ def clean_text_for_tts(text):
 
 # ==========================================
 # 线程 1: LLM 主控线程
-# ==========================================
-# ==========================================
-# 线程 1: LLM 主控线程 (游标卡尺断句版)
 # ==========================================
 def llm_worker(chat_history, playback_queue, tts_executor, debug_stats):
     payload = {"model": OLLAMA_MODEL, "messages": chat_history, "stream": True}
