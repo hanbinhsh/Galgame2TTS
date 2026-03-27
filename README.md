@@ -5,28 +5,12 @@
 *示例语音已上传到项目`Example_voice`目录下，文本如下*
 
 *audio_6(雾枝--美少女万华镜):今日はとても静かな朝です。窓の外では鳥がさえずり、やわらかな風がカーテンを揺らしています。コーヒーの香りに包まれながら、ゆっくりと一日が始まります。こんな穏やかな時間が、ずっと続けばいいのにと思います。*
-<audio controls>
-  <source src="Example_voice/audio_6.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 *audio_7(雾枝--美少女万华镜):ねえ、今日はどこか遊びに行かない？天気もいいし、きっと楽しい一日になるよ！*
-<audio controls>
-  <source src="Example_voice/audio_7.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 *audio_1(Saki--古色迷宫轮舞曲):な、なによ急に優しくして……調子狂うじゃない。べ、別に嬉しくなんかないんだからね！*
-<audio controls>
-  <source src="Example_voice/audio_1.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 *audio_2(Saki--古色迷宫轮舞曲):フンッ、今は一つでも可能性を模索する時だ。そんなに否定してばかりでは、解決策まで見落とすぞ*
-<audio controls>
-  <source src="Example_voice/audio_2.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 
 **另，可将ttstest修改以查看实时对话效果（本地ollama模型）, 或者使用tts_read_only输入文本查看效果**
